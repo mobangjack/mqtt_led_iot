@@ -1,1 +1,1 @@
-mosquitto_sub -t 'led/curstate' -v
+mosquitto_sub -h mqtt -t 'led/curstate' -v
